@@ -1,0 +1,10 @@
+[package]
+name = "monoc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.6.7", features = ["derive"] }
+monobank_api = { git = "https://github.com/nikkibuster/monobank_api.git", version = "0.1.0" }
+rpassword = "7.5.4"
+tokio = { version = "1.54.1", features = ["rt-multi-thread", "macros"] }
